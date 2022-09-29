@@ -2,11 +2,9 @@
 
 ## Creating Grids
 
-Grids can be created by using a short program in Jupyter Notebook. This program is available at https://github.com/nicole-brewer/color-by-number.
+Grids can be created by using a short program in Jupyter Notebook. This program is available at https://github.com/nicole-brewer/color-by-number. It produces a blank grid with numbers, as well as an answer key like the one below.
 
-### Future Work
-
-In the future, it is my goal to wrap this program with a user interface so that instructors without coding experience can upload images that can be pixelated into the grids students will color for this activity. Until then, grids can be encoded manually using a two-dimensional list.
+![color by number answer key](color_by_number_key.png)
 
 ## Narrative Standpoint
 
@@ -19,3 +17,7 @@ Let's say we are using this activity at an after-school program in Arizona. We c
 ## Current News
 
 Supercomputers have recently been used to forecast wildfires in California (https://www.top500.org/news/hpc-modeling-used-to-help-fight-california-wildfires/). Just like weather forecasts, this kind of forecasting takes a lot more processing power than a laptop computer. The forecasting software help firefighters monitor wildfires and guide evacuations. Grid cells for this lesson could modified to model wildfire.
+
+## Future Work
+
+In the future, it is my goal to wrap this program with a user interface so that instructors without coding experience can upload images that can be pixelated into the grids students will color for this activity. Until then, grids can be encoded manually using a two-dimensional list.
