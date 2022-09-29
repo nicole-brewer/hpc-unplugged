@@ -1,6 +1,4 @@
 about
-hello-bookdown
-a-section
 lesson-framework
 background-parallel-and-distributed-computing
 learning-objective
@@ -11,10 +9,10 @@ distributed-computing
 learning-outcomes
 engagement
 creating-grids
-future-work
 narrative-standpoint
 example
 current-news
+future-work
 adaption
 virtual-classroom-adaption
 online-game-adaption
