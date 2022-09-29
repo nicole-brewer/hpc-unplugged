@@ -1,0 +1,21 @@
+# Engagement
+
+## Creating Grids
+
+Grids can be created by using a short program in Jupyter Notebook. This program is available at https://github.com/nicole-brewer/color-by-number.
+
+### Future Work
+
+In the future, it is my goal to wrap this program with a user interface so that instructors without coding experience can upload images that can be pixelated into the grids students will color for this activity. Until then, grids can be encoded manually using a two-dimensional list.
+
+## Narrative Standpoint
+
+This lesson can take advantage of a narrative format by incorporating pictures into the grids the students will fill in. These pictures will naturally be in the style of 8-bit art often found in old video games. 
+
+### Example
+
+Let's say we are using this activity at an after-school program in Arizona. We can start the first activity by introducing the main character; maybe a girl since women are in a vast minority in computing fields. This girl is taking a walk through the desert. She comes upon a little creature eating seeds for the moisture they contain. What creature is it? The first grid will be a picture of the kangaroo rat. Next, she comes across a creature with large pointy ears. The second grid will show a kit fox. Then she comes across something rustling, she points her flashlight in the direction of the noise that makes her jump! This grid is a picture of a tarantula, which can live to be up to 20 years old.
+
+## Current News
+
+Supercomputers have recently been used to forecast wildfires in California (https://www.top500.org/news/hpc-modeling-used-to-help-fight-california-wildfires/). Just like weather forecasts, this kind of forecasting takes a lot more processing power than a laptop computer. The forecasting software help firefighters monitor wildfires and guide evacuations. Grid cells for this lesson could modified to model wildfire.

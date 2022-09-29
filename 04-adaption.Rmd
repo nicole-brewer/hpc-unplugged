@@ -1,0 +1,9 @@
+# Adaption
+
+## Virtual Classroom Adaption
+
+This game could be used in a classroom setting by assigning small groups to breakout rooms where one of the students could walk through the steps of the game. At each step, the students could discuss their optimization strategy. A student could be assigned to take notes about their reasoning in a shared Google doc. Another student could share those notes in a group discussion when they exit their breakout sessions and return to the larger group discussion. This way every student in a group of four has a role of active participation during the lesson. The downside of the virtual approach is that not all the students get to control the game execution (though an instructor might suggest that they can choose to play again on their own after the lesson). However, every student in each group has a role to play in their breakout groups, so they will still be difficult for them to avoid active participation.
+
+## Online Game Adaption
+
+This lesson could be turned into an individual online game. The student could be responsible for “painting” a grid the right color through a series of clicks. For the parallel example, the student could decide where and how many ways to divide the grid into subsections. They would then be timed for only one subsection, and the computer would autofill the other sections for them. They could try different configurations in order to design the fastest time. For the distributed example, the student would have to click a button to scan the adjacent grid. They would check for the number they need and then hold that number in memory or on paper. They could then click a button to flip back to the subgrid they are working on and calculate the number/color they need to fill in edge cell. 
