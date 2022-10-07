@@ -2,6 +2,8 @@ about
 problem-and-motivation
 background-and-related-work
 approach-and-uniqueness
+background
+concepts
 lesson-framework
 learning-objective
 materials
