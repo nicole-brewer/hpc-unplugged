@@ -29,7 +29,7 @@ set in the _output.yml file.</p>" />
 <meta name="author" content="Nicole Brewer" />
 
 
-<meta name="date" content="2022-09-29" />
+<meta name="date" content="2022-10-07" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -79,11 +79,15 @@ set in the _output.yml file.</p>" />
 <li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#problem-and-motivation"><i class="fa fa-check"></i><b>1.1</b> Problem and Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#background-and-related-work"><i class="fa fa-check"></i><b>1.2</b> Background and Related Work</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#approach-and-uniqueness"><i class="fa fa-check"></i><b>1.3</b> Approach and Uniqueness</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="lesson-framework.html"><a href="lesson-framework.html"><i class="fa fa-check"></i><b>2</b> Lesson Framework</a><ul>
-<li class="chapter" data-level="2.1" data-path="lesson-framework.html"><a href="lesson-framework.html#background-parallel-and-distributed-computing"><i class="fa fa-check"></i><b>2.1</b> Background: Parallel and Distributed Computing</a></li>
-<li class="chapter" data-level="2.2" data-path="lesson-framework.html"><a href="lesson-framework.html#learning-objective"><i class="fa fa-check"></i><b>2.2</b> Learning Objective</a></li>
-<li class="chapter" data-level="2.3" data-path="lesson-framework.html"><a href="lesson-framework.html#materials"><i class="fa fa-check"></i><b>2.3</b> Materials</a></li>
+<li class="chapter" data-level="2.1" data-path="lesson-framework.html"><a href="lesson-framework.html#learning-objective"><i class="fa fa-check"></i><b>2.1</b> Learning Objective</a></li>
+<li class="chapter" data-level="2.2" data-path="lesson-framework.html"><a href="lesson-framework.html#materials"><i class="fa fa-check"></i><b>2.2</b> Materials</a></li>
+<li class="chapter" data-level="2.3" data-path="lesson-framework.html"><a href="lesson-framework.html#introduction"><i class="fa fa-check"></i><b>2.3</b> Introduction</a></li>
 <li class="chapter" data-level="2.4" data-path="lesson-framework.html"><a href="lesson-framework.html#instructions"><i class="fa fa-check"></i><b>2.4</b> Instructions</a><ul>
 <li class="chapter" data-level="2.4.1" data-path="lesson-framework.html"><a href="lesson-framework.html#parallelism"><i class="fa fa-check"></i><b>2.4.1</b> Parallelism</a></li>
 <li class="chapter" data-level="2.4.2" data-path="lesson-framework.html"><a href="lesson-framework.html#distributed-computing"><i class="fa fa-check"></i><b>2.4.2</b> Distributed Computing</a></li>
@@ -127,7 +131,7 @@ set in the _output.yml file.</p>" />
 <h1 class="title">HPC Unplugged:</h1>
 <h2 class="subtitle"><em>A lesson plan for teaching parallel and distributed computing in middle school</em></h2>
 <p class="author"><em>Nicole Brewer</em></p>
-<p class="date"><em>2022-09-29</em></p>
+<p class="date"><em>2022-10-07</em></p>
 </div>
 <div id="about" class="section level1 hasAnchor">
 <h1><span class="header-section-number">Chapter 1</span> About<a href="index.html#about" class="anchor-section" aria-label="Anchor link to header"></a></h1>
@@ -135,6 +139,47 @@ set in the _output.yml file.</p>" />
 <p>High-performance computing (HPC) involves the use of supercomputers to solve highly computation problems in science, engineering, math, and social science. A workforce with HPC expertise are highly sought after in academia, industry, and national labs, but women and minorities are even more underrepresented in this field than they are other computer and information technology occupations.</p>
 <p>This lesson was developed to teach parallel and distributed computing principles to middle school students in an informal setting.</p>
 
+<div id="problem-and-motivation" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.1</span> Problem and Motivation<a href="index.html#problem-and-motivation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>High-Performance Computing (HPC) is a large market spanning
+industry, academia, and government. These markets are essential to US
+competitiveness and national security []. The broader research computing
+and data (RDC) workforce upholding this industry is composed of a wide variety
+of specialized technical profiles [RDC Workforce]. The recruitment and
+retention of RDC professionals has historically been challenging [Schidz] but
+is especially critical to address now that the workforce is aging out. [RDC
+26]. Women in RDC are underrepresented
+in similar proportion to national computational and mathematical occupations,
+which may be due in part to women and other minorities feeling less included
+within the field. However, this representation worsens in systems-facing roles,
+software-facing roles [RDC]. We aim to address this underrepresentaion.</p>
+</div>
+<div id="background-and-related-work" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.2</span> Background and Related Work<a href="index.html#background-and-related-work" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Technical skills in Parallel and Distributed Computing (PDC)
+skills lie at the intersection of HPC and software-facing roles. Parallelism is
+a core competency of the CS2013 Curriculum Guidelines for Undergraduate
+Programs in Computer Science, but distributed computing is considered an
+elective. As such, undergraduate students are not prepared to face HPC
+systems in production [Banchelli]. There
+is currently no required exposure to these concepts at the high school or
+middle school level [need citation] but we know that identity formation is most
+critical for middle-school age groups [citation needed]. Thus there is impetus
+to develop a lesson plan to teach middle schoolers PDC concepts to middle
+school students at this critical time of identity development.</p>
+</div>
+<div id="approach-and-uniqueness" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.3</span> Approach and Uniqueness<a href="index.html#approach-and-uniqueness" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We present "HPC Unplugged", a PDC lesson plan that doesn't
+require the use of code or expertise of the instructor. It incorporates evidence-based
+teaching strategies and assessment tools to further the efficacy of the lesson,
+especially when it is delivered in an informal setting such as a summer camp or
+after-school program. Finally, this lesson plan incorporates real-life HPC
+application that espouses altruistic values and may connect with students on a
+personal level.</p>
+
+
+</div>
 </div>
             </section>
 

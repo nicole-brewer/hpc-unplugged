@@ -1,8 +1,11 @@
 about
+problem-and-motivation
+background-and-related-work
+approach-and-uniqueness
 lesson-framework
-background-parallel-and-distributed-computing
 learning-objective
 materials
+introduction
 instructions
 parallelism
 distributed-computing
