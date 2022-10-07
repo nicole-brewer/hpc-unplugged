@@ -1,0 +1,38 @@
+## Problem and Motivation
+
+High-Performance Computing (HPC) is a large market spanning
+industry, academia, and government. These markets are essential to US
+competitiveness and national security []. The broader research computing
+and data (RDC) workforce upholding this industry is composed of a wide variety
+of specialized technical profiles [RDC Workforce]. The recruitment and
+retention of RDC professionals has historically been challenging [Schidz] but
+is especially critical to address now that the workforce is aging out. [RDC
+26]. Women in RDC are underrepresented
+in similar proportion to national computational and mathematical occupations,
+which may be due in part to women and other minorities feeling less included
+within the field. However, this representation worsens in systems-facing roles,
+software-facing roles [RDC]. We aim to address this underrepresentaion.
+
+## Background and Related Work
+
+Technical skills in Parallel and Distributed Computing (PDC)
+skills lie at the intersection of HPC and software-facing roles. Parallelism is
+a core competency of the CS2013 Curriculum Guidelines for Undergraduate
+Programs in Computer Science, but distributed computing is considered an
+elective. As such, undergraduate students are not prepared to face HPC
+systems in production [Banchelli]. There
+is currently no required exposure to these concepts at the high school or
+middle school level [need citation] but we know that identity formation is most
+critical for middle-school age groups [citation needed]. Thus there is impetus
+to develop a lesson plan to teach middle schoolers PDC concepts to middle
+school students at this critical time of identity development.
+
+## Approach and Uniqueness
+
+We present \"HPC Unplugged\", a PDC lesson plan that doesn\'t
+require the use of code or expertise of the instructor. It incorporates evidence-based
+teaching strategies and assessment tools to further the efficacy of the lesson,
+especially when it is delivered in an informal setting such as a summer camp or
+after-school program. Finally, this lesson plan incorporates real-life HPC
+application that espouses altruistic values and may connect with students on a
+personal level.
