@@ -36,3 +36,7 @@ especially when it is delivered in an informal setting such as a summer camp or
 after-school program. Finally, this lesson plan incorporates real-life HPC
 application that espouses altruistic values and may connect with students on a
 personal level.
+
+## Results and Contributions
+
+The goal of this lesson is to give students a better understanding of parallel and distributed computing concepts, encourage identity development of girls in the direction of computing, and to raise awareness of HPC as an industry and a career. We hope that the uptake of this lesson in classrooms will improve the recruitment of women to computing careers in the future. 

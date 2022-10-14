@@ -2,13 +2,63 @@
 
 Computers are everywhere. Smart phones for instance, are a lot smaller than they used to be because the computers inside them got a lot smaller as engineers improved their design. In recent years, however, we have reached the physical limitations of how small a computer can be before it starts to melt when it gets used. So now instead of trying to make computers more smaller and faster, engineers build supercomputers which essentially are a lot of computers that work together to solve a task.
 
-Engineers might use supercomputers to simulate the aerodynamics of a fighter jet. Scientists use supercomputers to forecast the weather. Social scientists use supercomputers to analyse connections between users on Instagram. But using a supercomputer is not like using a desktop computer. Because supercomputers are made of of lot of smaller computers connected over a network, scientists have to learn how to break up their problem into smaller pieces and then integrate the results back into a larger picture. This lesson demonstrates why sometimes can be straight forward, and other times slows down the process to some degree.
+Engineers might use supercomputers to simulate the aerodynamics of a fighter jet. Scientists use supercomputers to forecast the weather. Social scientists use supercomputers to analyse connections between users on Instagram. But using a supercomputer is not like using a desktop computer. Because supercomputers are made of of lot of smaller computers connected over a network, scientists have to learn how to break up their problem into smaller pieces and then integrate the results back into a larger picture. This lesson demonstrates why breaking down the problem can sometimes be straight forward, and other times slows down the process to some degree. Students will learn how to optimize speedup from working on multiple components at the same time and slowdown from integrating those pieces together.
 
-## Concepts 
+## Concepts
 
 Parallelism: Using additional computational resources simultaneously, usually for speedup [CS13]
 
 Distributed computing: Using additional computers simultaneously together over a network
 
-Performance: Measuring and tuning metrics - typically computer memory, time, and energy - to achieve speedup, efficiency, and scalability.
+Performance: Measuring and tuning metrics - typically computer memory, time, and energy - to achieve speedup, efficiency, and scalability
 
+Scalability: The ability to handle more work as the size of the computer or application grows
+
+## Standard Curricula
+
+### [CSTA Standards for Teachers](https://csteachers.org/page/standards-for-cs-teachers-interactive)
+
+**1e. Develop programs and interpret algorithms.** Groups of students are tasked to break down a large problem into smaller pieces that each student can complete in parallel. They learn tradeoffs that arise from breaking down the problem into different sizes and shapes.
+
+**2d. Use data for decision-making to improve equity.** This lesson plan is evidence-based - it draws upon existing research to improve the engagements of girls.
+
+**4f. Plan instruction to foster student understanding.** This lesson was developed to be an unplugged activity in order to develop students conceptual understanding of advanced topics.
+
+**5a. Use inquiry to facilitate student learning.** This lesson plan espouses guided inquiry and provides many example questions that a teacher can use draw out student understanding without direct transfer of knowledge.
+
+**5c. Promote student self-efficacy.** Students collaboratively choose how they want to divvy up the problem with the goal of optimization.
+
+**5d. Support student collaboration.** Students work together and take on different roles within a collaborative design group.
+
+### [Computer Science Curricula 2013](https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf)
+
+**Knowledge Area: Parallel and Distributed Computing (PD)**
+
+Topics below are implicitly and explicitly related to this lesson.
+
+PD/Parallelism Fundamentals
+
+-   Multiple simultaneous computations
+
+PD/Parallel Decomposition
+
+-   Independence and partitioning
+
+PD/Communication and Coordination
+
+-   Shared Memory
+
+PD/Parallel Algorithms, Analysis, and Programming
+
+-   Speed-up and scalability
+-   Naturally (embarrassingly) parallel algorithms
+
+PD/Parallel Architecture
+
+-   Shared vs. distributed memory
+
+PD/Parallel Performance
+
+-   Load balancing
+-   Performance measurement
+-   Evaluating communication overhead
