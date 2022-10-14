@@ -2,8 +2,12 @@ about
 problem-and-motivation
 background-and-related-work
 approach-and-uniqueness
+results-and-contributions
 background
 concepts
+standard-curricula
+csta-standards-for-teachers
+computer-science-curricula-2013
 lesson-framework
 learning-objective
 materials
